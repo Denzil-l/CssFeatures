@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+.link:not(:last-child){
+    margin-right: 10px;
+}
+.link:hover{
+    letter-spacing: 1px;
+    color: rgb(158, 158, 255);
+}

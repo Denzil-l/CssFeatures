@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Sixtyfour:regular);
+html,body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Sixtyfour';
+  font-weight: normal;
+}
+
+h1.h2.h3.h4.h5,h6,a{
+  color: inherit;
+  text-decoration: none;
+}
+a{
+  transition: .3s;
+}
+.wrapper{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
